@@ -3,8 +3,11 @@ local library = {}
 local TweenService = game:GetService("TweenService")
 function library:tween(...) TweenService:Create(...):Play() end
 
+
+
+
 local uis = game:GetService("UserInputService")
-library.signal = loadstring(game:HttpGet("https://raw.githubusercontent.com/Asstricks/21bitcheswantingmycock/main/AntiFemboy"))()
+library.signal = loadstring(game:HttpGet("https://raw.githubusercontent.com/TSBSCRIPTS/idkmyselfbro/refs/heads/main/idkmyself1"))()
 function library:create(Object, Properties, Parent)
     local Obj = Instance.new(Object)
 
